@@ -69,7 +69,7 @@ storiesOf("Dropdown", module)
 			onClose: action("Multi-select dropdown closed")
 		}
 	})))
-	.add("Multi-select with custom template", withNotes({ text: "Notes on multi select" })(() => ({
+	.add("Multi-select with a custom template", withNotes({ text: "Notes on multi select" })(() => ({
 		template: `
 		<div style="width: 300px">
 			<ng-template #customListItem let-item>
